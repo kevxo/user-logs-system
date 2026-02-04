@@ -1,0 +1,37 @@
+[
+    {
+        "id": "018F0E79-5F15-7000-9A6C-123456789A00",
+        "userId": "018F0E79-5F10-7000-8B55-B2F01B93A100",
+        "description": "Logged in"
+    },
+    {
+        "id": "018F0E79-5F16-7000-9123-234567891B00",
+        "userId": "018F0E79-5F10-7000-8B55-B2F01B93A100",
+        "description": "Viewed dashboard"
+    },
+    {
+        "id": "018F0E79-5F17-7000-8ACD-345678912C00",
+        "userId": "018F0E79-5F10-7000-8B55-B2F01B93A100",
+        "description": "Logged out"
+    },
+    {
+        "id": "018F0E79-5F18-7000-934E-456789123D00",
+        "userId": "018F0E79-5F11-7000-97A7-2F0D45D5A200",
+        "description": "Password changed"
+    },
+    {
+        "id": "018F0E79-5F19-7000-9ABF-567891234E00",
+        "userId": "018F0E79-5F14-7000-847F-FD23C3B0A500",
+        "description": "Updated settings"
+    },
+    {
+        "id": "018F0E79-5F1A-7000-8123-678912345F00",
+        "userId": "018F0E79-5F14-7000-847F-FD23C3B0A500",
+        "description": "Generated report"
+    },
+    {
+        "id": "018F0E79-5F1B-7000-8D4E-789123456A00",
+        "userId": "018F0E79-5F14-7000-847F-FD23C3B0A500",
+        "description": "System rebooted"
+    }
+]

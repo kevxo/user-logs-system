@@ -1,0 +1,62 @@
+[
+    {
+        "id": "018F0E79-5F10-7000-8B55-B2F01B93A100",
+        "firstName": "USER A",
+        "mailingAddress": {
+            "address1": "123 Ave A",
+            "zipcode": "00901"
+        },
+        "billingAddress": {
+            "address1": "321 Blvd Z",
+            "zipcode": "00901"
+        }
+    },
+    {
+        "id": "018F0E79-5F11-7000-97A7-2F0D45D5A200",
+        "firstName": "USER B",
+        "mailingAddress": {
+            "address1": "456 Calle B",
+            "zipcode": "00902"
+        },
+        "billingAddress": {
+            "address1": "654 Calle Y",
+            "zipcode": "00902"
+        }
+    },
+    {
+        "id": "018F0E79-5F12-7000-95F1-1C2A56E4A300",
+        "firstName": "USER C",
+        "mailingAddress": {
+            "address1": "789 Street C",
+            "zipcode": "00903"
+        },
+        "billingAddress": {
+            "address1": "987 Ave X",
+            "zipcode": "00903"
+        }
+    },
+    {
+        "id": "018F0E79-5F13-7000-9A6B-9420A1D2A400",
+        "firstName": "USER D",
+        "mailingAddress": {
+            "address1": "159 Camino D",
+            "zipcode": "00904"
+        },
+        "billingAddress": {
+            "address1": "951 Trail W",
+            "zipcode": "00904"
+        }
+    },
+    {
+        "id": "018F0E79-5F14-7000-847F-FD23C3B0A500",
+        "firstName": "SYSTEM USER",
+        "mailingAddress": {
+            "address1": "753 Main System Way",
+            "zipcode": "00905"
+        },
+        "billingAddress": {
+            "address1": "357 Admin St",
+            "zipcode": "00905"
+        }
+    }
+]
