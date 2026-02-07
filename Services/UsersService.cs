@@ -9,6 +9,7 @@ public interface IUserService
   Task<List<UserDTO>> GetSummaryUsersAsync(int page, int pageSize);
   Task<List<UserLog>> GetUserLogs();
   Task<List<UserLogDTO>> GetUserLogSummary();
+  Task<List<string>> GetUserLogsByUser(Guid userId);
 }
 
 public class UserService : IUserService
@@ -97,6 +98,13 @@ public class UserService : IUserService
     .Take(3);
 
     return [.. userLogsSummary];
+  }
+
+  public async Task<List<string>> GetUserLogsByUser(Guid userId)
+  {
+    var userLogs = await GetUserLogs();
+
+    return userLogs.Where(log => log.UserId == userId).Select(log => log.Description).ToList();
   }
 }
 

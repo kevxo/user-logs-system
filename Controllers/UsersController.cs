@@ -33,4 +33,12 @@ public class UsersController : ControllerBase
 
     return Ok(new { userLogsSummary = userLogs });
   }
+
+  [HttpGet("/userLogs/{userGuid}")]
+  public async Task<ActionResult<List<string>>> GetUserLogByUserId(Guid userGuid)
+  {
+    var userLogs = await _userService.GetUserLogsByUser(userGuid);
+
+    return Ok(new { logs = userLogs});
+  }
 }
